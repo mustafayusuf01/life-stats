@@ -1,0 +1,6 @@
+def life_stats(age)
+  puts "In your life to date you have consumed around #{3450 * 365 * age} Kcal of food.
+  \n You have guzzled approx. #{2 * 365 * age} litres of water.
+  \n You have slept for around #{age > 18 ? 7 * 365 * age : 10 * 365 * age} hours.
+  \n You have done #{1.714285714285714 * 365 * age} poo's. Congratulations!"
+end
